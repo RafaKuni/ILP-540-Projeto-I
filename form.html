@@ -1,0 +1,125 @@
+<!Doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Sorteio Corinthians</title>
+		<link rel="sortcut icon" href="midia/icone.png" text="image/x-icon"/>  
+        <link rel="stylesheet" href="form.css"/>
+
+    </head>
+    <body>
+	<script type="text/javascript">
+
+		function msgConfirma(){
+			alert("Questionário foi enviado com sucesso!");
+			window.location.href ="index.html";
+		}
+	</script>
+		<main class="container">
+	
+		<form method="post" action="Javascript:msgConfirma()" enctype="multipart/form-data">
+	
+	<fieldset id="dados">
+		<h2>Teste seus conhecimentos: </h2>  
+
+
+		<div class="preenche">
+           <label for="nome">Nome:</label>
+           <input id="nome" name="nome" type="text" placeholder="Digite seu nome para o sorteio" required="required"/>
+		</div>
+		
+		<div class="preenche">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder= "Digite seu email para participar do sorteio" required="required">
+        </div>
+	
+		<div class="preenche">
+			<label for="q1"> <b>Questão 1: Quem foi o responsável por fazer o gol que garantiu a Libertadores?</b></label>
+			<p>
+		   <input id="gue" name="questao1" type="radio" value="Guerrero"​ required="required" />​
+           <label for="gue">Guerrero</label>           
+		   <input id="sheik" name="questao1" type="radio" value="sheik" />
+           <label for="sheil">Emerson Sheik</label>        ​           
+		   <input id="ralf" name="questao1" type="radio" value="ralf" /> ​
+           <label for="ralf">Ralf</label>           
+		   <input id="dan" name="questao1" type="radio" value="pos-graduacao" />​
+           <label for="dan">Danilo</label>​
+		   </p>
+		</div>
+		
+		
+		<div class="preenche">
+		<label for="q2"> <b>Questão 2: Quem foi o maior artilheiro do Corinthians no século 21?</b></label>		
+		 <p>
+		   <input id="jad" name="questao2" type="radio" value="jadson"​ required="required" />​
+           <label for="jad">Jadson</label>
+           
+		   <input id="tev" name="questao2" type="radio" value="tevez" />
+           <label for="tev">Carlos Tévez</label>        ​
+           
+		   <input id="dent" name="questao2" type="radio" value="dentinho" /> ​
+           <label for="dent">Dentinho</label>
+           
+		   <input id="jo" name="questao2" type="radio" value="jo" />​
+           <label for="jo">Jô</label>​
+		</p>
+		</div>
+		
+		<div class="preenche">
+		<label for="q3"><b> Questão 3: Quem foi o técnico do bicampeonato mundial do Corinthians?</b></label>
+		<p>
+		   <input id="mano" name="questao3" type="radio" value="mano menezes"​ required="required" />​
+           <label for="mano">Mano Menezes</label>           
+		   <input id="tite" name="questao3" type="radio" value="tite" />
+           <label for="tite">Tite</label>        ​           
+		   <input id="fab" name="questao3" type="radio" value="fabio carrile" /> ​
+           <label for="fab">Fábio Carille</label>           
+		   <input id="lux" name="questao3" type="radio" value="luxemburgo" />​
+           <label for="lux">Luxemburgo</label>​
+		</p>
+		</div>
+		
+				<div class="preenche">
+		<label for="q4">
+			<b>	Questão 4: Onde fica o estádio do Corinthians?</b></label>
+		<p>
+           <input id="psj" name="questao4" type="radio" value="parque são jorge"​ required="required" />​
+           <label for="psj">Parque São Jorge</label>
+		   <input id="ita" name="questao4" type="radio" value="itaquera" />
+           <label for="ita">Itaquera</label>        ​          
+		   <input id="gua" name="questao4" type="radio" value="guaianases" /> ​
+           <label for="gua">Guaianases</label>           
+		   <input id="art" name="questao4" type="radio" value="arthur Alvim" />​
+           <label for="art">Arthur Alvim</label>​
+		 </p>
+		</div>
+
+
+
+
+
+
+		<div class="preenche">
+		<label for="q5"> <b>Questão 5: Quem foi o principal jogador da conquista do primeiro Brasileirão em 1990?</b></label> ​
+			<p>
+           <input id="fabinho" name="questao5" type="radio" value="fabinho"​ required="required" />​
+           <label for="fun">Fabinho</label>           
+		   <input id="neto" name="questao5" type="radio" value="neto" />
+           <label for="neto">Neto</label>        ​           
+		   <input id="ron" name="questao5" type="radio" value="ronaldo" /> ​
+           <label for="ron">Ronaldo</label>          
+		   <input id="mar" name="questao5" type="radio" value="marcelo" />​
+           <label for="mar">Marcelo</label>​
+			</p>
+		</div>
+		 
+		<div class="footer">
+		<input type="submit" value="Enviar">
+		</div>
+	</form>
+	</main>
+		<div id="return">
+		<a href="index.html">
+</div>		Voltar para a pagina inicial </a>
+    </body>
+</html>

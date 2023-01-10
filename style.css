@@ -1,0 +1,468 @@
+@font-face{
+	font-family: MaqEscrever;
+	src: url("midia/OldNewspaperTypes.ttf");
+}
+
+@font-face{
+	font-family: Soccer;
+	src: url("midia/SoccerLeague.ttf");
+}
+
+@font-face{
+	font-family: Louis;
+	src: url("midia/LouisGeorgeCafe.ttf");
+}
+
+@font-face{
+	font-family: Canadian;
+	src: url("midia/Canadian Brusher DEMO.ttf");
+}
+@font-face{
+	font-family: Times;
+	src: url("midia/TIMESS__.ttf");
+}
+@font-face{
+	font-family: Bold;
+	src:url("midia/theboldfont.ttf");
+}
+img {
+	height: 200px;
+	width: 200px;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.container img {
+	margin-right:25px;
+
+}
+
+h1 {
+	margin:25px;
+	font-family: Soccer;
+	color: white;
+	text-shadow:2px 3px 4px black; 
+	letter-spacing: 5px;
+	transition: all 0.5s ease;
+	cursor: default;
+}
+h1:hover{
+	letter-spacing: 4px;
+}
+ h2 {
+	text-align: center;
+}
+
+body{
+	background-color: black;
+	background: url("midia/neoquimica.jpg");
+	background-size:cover;
+	font-size:20px;
+	background-repeat: no-repeat;
+	background-position:center right;
+	background-attachment: fixed;
+	max-height: 1000px;
+}
+
+#hist{
+	font-family: MaqEscrever;
+	color: white;
+	background-color: white;
+	text-shadow:2px 3px 4px black; 
+	padding: 25px;
+	margin: 10%;
+	background-image:url("midia/corinthians 1930.png");
+	background-repeat: no-repeat;
+	box-shadow: inset 0 0 1em black, 0 0 1em black;
+	border-radius: 10px;
+	text-align: justify;
+}
+
+#hist h2{
+	transition: all 0.8s ease;
+	-webkit-transition: all 0.8s ease;
+  	-moz-transition: all 0.8s ease;
+  	-o-transition: all 0.8s ease;
+}
+
+#hist h2:hover{
+	letter-spacing: 2px;
+	color:#b10101;
+	cursor: default;
+
+
+}
+
+
+
+#menu ul li { 
+	display: inline-block;
+	padding: 25px 25px;	
+}
+
+
+
+#menu ul li a {
+	padding: 15px 25px;	
+	text-decoration: none;
+	transition: all 0.5s ease;
+	background-color: #b10101;
+	color:white;
+	border-radius: 15px;
+	font-family: Times;
+}
+
+
+
+#menu ul {
+	padding: 10px;
+	margin:5%;
+	list-style:none;
+	background-color: rgba(0, 0, 0, 0.467);
+	text-align: center;
+	border-radius: 15px;
+	border: double 10px rgba(255, 255, 255, 0.305);
+}
+
+
+#menu a:hover{
+	color: white;
+	background-color: black;
+	letter-spacing: 2px;
+}
+
+
+div#bemvindo h2{
+	background-color:rgba(125, 0, 0, 0.727);
+	font-family: Times;
+	padding: 5px;
+	color: #fff;
+	letter-spacing: 10px;
+	text-shadow: 5px 5px 2px black;
+	cursor:default;
+	
+}
+
+footer{
+	background-color: rgba(0, 0, 0, 0.412);
+	text-align:center;
+	color: white;
+	text-shadow:1px 1px 1px black; 
+	font-family: Times;
+	padding: 10px;
+}
+
+#tit_lista {
+	text-align:center;
+	font-family: Bold;
+	background-color:rgba(0, 0, 0, 0.396);
+	border-radius: 30px;
+	margin: 3%;
+	padding: 2%;
+	letter-spacing: 1px;
+}
+
+
+#tit_lista a{
+	color:white;
+	transition: all 0.8s ease;
+	-webkit-transition: all 0.8s ease;
+  	-moz-transition: all 0.8s ease;
+  	-o-transition: all 0.8s ease;
+	
+}
+#tit_lista a:hover{color: red;}
+#tit_lista a:active{color:black;}
+
+#tit_lista  p {
+	background-image: linear-gradient(to bottom right, purple, black);
+	padding: 50px;
+	border-radius: 10px ;
+	margin: 5%;
+	text-align:center;
+	color:white;
+}
+
+.lista{
+	background-image:url("midia/membro.png");
+	background-position: center;
+	box-shadow: inset 0 0 1em black, 0 0 1em black;
+	border: 20px;
+	margin: 5px 150px;
+	color: white;
+	font-size: 25px;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+	justify-content: space-evenly;
+	padding:20px;
+	
+}
+.lista h3{
+	text-shadow:2px 3px 4px red;
+	font-family: Times;
+}
+	
+	
+.lista ul li {
+  color: white;
+  text-shadow:1px 1px 1px black; 
+  margin: 5px;
+  font-family: Times;
+}
+
+
+#libertadores {
+	font-family: Times;
+	text-align:justify;
+	color: white;
+	text-shadow:2px 3px 4px black;
+	background-color: white;
+	background-image: url("midia/libertadores.png");
+    margin: 10%;
+    padding: 10px 5%;
+	box-shadow: inset 0 0 1em black;
+}
+#libertadores h2{
+	font-family: Bold;
+	font-size:40px;
+	text-shadow:2px 3px 4px red;
+	transition: all 0.8s ease;
+	-webkit-transition: all 0.8s ease;
+  	-moz-transition: all 0.8s ease;
+  	-o-transition: all 0.8s ease;
+	cursor: default;
+
+}
+
+#libertadores h2:hover{
+	letter-spacing: 2px;
+	text-shadow:2px 3px 4px black;
+	color: red;
+}
+
+
+	
+video{
+    margin:0 auto;
+    display: block;
+}
+
+#video1 video{
+    width: 50%;
+    margin: 0 auto;
+    padding: 2%;
+    border: solid #820000 5px;
+    border-radius: 50px;
+	display: block;
+}
+
+#mundial{
+	font-family: Louis;
+    color:white;
+    background-color: black;
+    background-image:url("midia/fundo.png");
+    background-repeat: no-repeat;
+    padding: 35px;
+    margin: 10%;
+    text-align:justify;
+	box-shadow: inset 0 0 1em black;
+}
+#mundial h2{
+    text-align: center;
+    font-size:45px;
+    text-shadow:2px 3px 4px blue;
+	transition: all 0.8s ease;
+	-webkit-transition: all 0.8s ease;
+  	-moz-transition: all 0.8s ease;
+  	-o-transition: all 0.8s ease;
+	cursor: default;
+}
+
+#mundial h2:hover{
+	color:blue;
+	text-shadow:2px 3px 4px black;
+	letter-spacing: 2px;
+}
+
+#img3{
+	margin:0 auto;
+    display: block;
+}
+
+
+
+#voltar{
+		list-style:none;
+		text-align:center;
+		list-style:none;
+		padding:20px;
+		border-radius: 30px;
+		margin: 10px 100px;
+		
+}
+#voltar li a{ 
+		display: block; 
+		text-decoration: none; 
+		font-family: Times;
+		color: white;
+		transition: all 0.6s ease;
+		-webkit-transition: all 0.6s ease;
+		-moz-transition: all 0.6s ease;
+		-o-transition: all 0.6s ease;
+		background-color: rgba(186, 7, 7, 0.695);
+		padding: 10px;
+		margin: 5px 50px;
+		font-size: 15px;
+		border-radius: 30px;
+		letter-spacing: 8px;
+}
+
+
+
+
+#voltar a:hover{
+	color:black;
+	background-color: #fff;
+	letter-spacing: 10px;
+}
+
+form {
+    width: 40%;
+    margin: 0 auto;
+    padding: 2%;
+    border: solid #fff 2px;
+    border-radius: 10px;
+}
+fieldset {
+    padding: 3%;
+    margin-bottom: 7px;
+    background-color:black;
+    border-radius: 7px;
+}
+legend {
+	font-family: Times;
+    background-color: purple;
+    color: white;
+    border-radius: 3px;
+	text-align:center;
+}
+
+label {
+    display: inline-block;
+    width: 20%;
+    color: #fff;
+    font-weight: bold;
+}
+
+#idolos h2 {
+	font-family: Canadian;
+	font-size: 50px;
+	color: white;
+	text-shadow:10px 0.5px 5px black;
+	border-radius: 50px;
+	letter-spacing: 2px;
+}
+#idolos p {
+	font-family: Louis;
+	text-align:center;
+	color:white;
+	font-size:30px;
+}
+#idolos figure{
+	text-align:center;
+
+}
+
+#idolos {
+	background-image:url("midia/idolos.png");
+	background-attachment:fixed;
+	box-shadow: inset 0 0 3em black;
+	padding:30px;
+	margin:10%;
+	border-radius: 100px;
+}
+
+@media screen and (max-width: 600px) {
+	*{font-size:12px;}
+
+
+
+	footer {
+		width: auto;
+		font-size: 20px;
+	}
+	
+	img#img1{
+		height: 100px;
+	}
+
+	img#img2{
+		height: 155px;
+		width: 150px;
+	}
+
+	#hist h2{
+		font-size: 15px;
+	}
+	#mundial h2{
+		font-size: 10px;
+	}
+
+	#libertadores h2{
+		font-size: 10px;
+	}
+	#idolos p{
+		font-size: 10px;
+	}
+	#idolos {
+		padding:10px;
+		background-attachment:local;
+	}
+
+	#menu ul li{
+		display: inline-block;
+		padding: 25px 0px;	
+	}
+	#menu ul li a {
+		padding: 15px 25px;	
+		text-decoration: none;
+		transition: all 0.5s ease;
+		background-color: #b10101;
+		color:white;
+		border-radius: 15px;
+		font-family: Times;
+		font-size: 9px;
+		
+	}
+	section.lista{
+		margin: 0 auto;
+		font-size: 5px;
+	}
+	video{
+		width: 175px;
+		height: 215px;
+	}
+	img{
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	#voltar{
+		list-style:none;
+		margin:10px;
+		font-size: 20px;
+		text-align:center;
+		border-style: double 1px black;
+	}
+	
+}
+
+
+
+

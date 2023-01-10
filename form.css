@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+	background: url("midia/fundo_form.png");
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position:center right;
+	background-attachment: fixed;
+    min-height: 100vh;
+    min-width: 100vw;
+    justify-content: center;
+}
+
+#dados h2{
+	font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+
+form input[type="submit"] {
+    margin-top: 2rem;
+    padding: 0.4rem;
+    width: 100%;
+    background: linear-gradient(to right, #a80000, #000000);
+    cursor: pointer;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 300;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+    letter-spacing: 5px;
+}
+form input[type="submit"]:hover {
+    letter-spacing: 10px;
+
+}
+main.container {
+	margin:5%;
+    background: white;
+    max-width: 720px;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px black;
+	background-position:center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	margin-bottom:30px;
+}
+
+a{
+    color:white;
+    text-decoration:underline;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+    background: linear-gradient(to right, #a80000, #000000);
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
+    transition: all 0.8s ease;
+	margin-bottom: 50px;
+    text-decoration: none;
+    letter-spacing: 5px;
+
+}
+
+a:hover{ 
+    transition: all 0.5s ease;
+	letter-spacing: 10px;
+    background: linear-gradient(to right, #ff0000, #000000);
+}
+a:active{color:red;}
+
+input[type="email" i] {
+	width: 300px;
+	margin-bottom: 30px;
+}
+input[type="text" i] {
+    width: 300px;
+	margin-bottom: 30px;
+}
+
+@media screen and (max-width: 760px) {
+	*{font-size:14px;}
+	
+	main.container {
+    max-width: 450px;
+	}	
+}
